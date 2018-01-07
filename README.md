@@ -28,7 +28,12 @@ Finally, these variables must be set:
 
 ## Dependencies
 
-None
+```yml
+---
+- src: git+https://github.com/thecjharries/dotfiles-common-software-role.git
+- src: git+https://github.com/thecjharries/dotfiles-package-installer-role.git
+- src: git+https://github.com/thecjharries/dotfiles-generic-template-role.git
+```
 
 ## Example Playbook
 
