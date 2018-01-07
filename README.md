@@ -1,6 +1,7 @@
 # `dotfiles-role-git`
 
 [![Build Status](https://travis-ci.org/thecjharries/dotfiles-role-git.svg?branch=master)](https://travis-ci.org/thecjharries/dotfiles-role-git)
+[![GitHub release](https://img.shields.io/github/release/thecjharries/dotfiles-role-git.svg)](https://github.com/thecjharries/dotfiles-role-git)
 
 ## Requirements
 
