@@ -1,0 +1,4 @@
+---
+needed_packages:
+  - git
+  - gitflow
