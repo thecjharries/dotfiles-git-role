@@ -2,7 +2,7 @@
 - name: "Template git config"
   when: user_name is defined and user_email is defined
   include_role:
-    name: dotfiles-generic-template-role
+    name: dotfiles-role-generic-template
   vars:
     template_root: "{{ root_dir }}"
     template_path: ".gitconfig"
