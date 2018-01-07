@@ -1,0 +1,14 @@
+[filter "lfs"]
+    clean = git-lfs clean %f
+    smudge = git-lfs smudge %f
+    required = true
+[user]
+    name = {{ user_name }}
+    email = {{ user_email }}
+[help]
+    autocorrect = 1
+[core]
+    autocrlf = input
+    editor = nano
+[push]
+    default = matching
