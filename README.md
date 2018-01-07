@@ -1,6 +1,8 @@
-# `dotfiles-git-role`
+# `dotfiles-role-git`
+# `dotfiles-role-git`
 
-[![Build Status](https://travis-ci.org/thecjharries/dotfiles-git-role.svg?branch=master)](https://travis-ci.org/thecjharries/dotfiles-git-role)
+[![Build Status](https://travis-ci.org/thecjharries/dotfiles-role-git.svg?branch=master)](https://travis-ci.org/thecjharries/dotfiles-role-git)
+[![Build Status](https://travis-ci.org/thecjharries/dotfiles-role-git.svg?branch=master)](https://travis-ci.org/thecjharries/dotfiles-role-git)
 
 ## Requirements
 
@@ -30,9 +32,12 @@ Finally, these variables must be set:
 
 ```yml
 ---
-- src: git+https://github.com/thecjharries/dotfiles-common-software-role.git
-- src: git+https://github.com/thecjharries/dotfiles-package-installer-role.git
-- src: git+https://github.com/thecjharries/dotfiles-generic-template-role.git
+- src: git+https://github.com/thecjharries/dotfiles-role-common-software.git
+- src: git+https://github.com/thecjharries/dotfiles-role-common-software.git
+- src: git+https://github.com/thecjharries/dotfiles-role-package-installer.git
+- src: git+https://github.com/thecjharries/dotfiles-role-package-installer.git
+- src: git+https://github.com/thecjharries/dotfiles-role-generic-template.git
+- src: git+https://github.com/thecjharries/dotfiles-role-generic-template.git
 ```
 
 ## Example Playbook
@@ -40,7 +45,8 @@ Finally, these variables must be set:
     - hosts: all
 
     roles:
-      - role: dotfiles-git-role
+      - role: dotfiles-role-git
+      - role: dotfiles-role-git
         user_name: "Rick James"
         user_email: "something@clever.com"
 
