@@ -5,4 +5,5 @@
   vars:
     template_root: "{{ root_dir }}"
     template_path: ".gitconfig"
+  when: user_name and user_email
 
